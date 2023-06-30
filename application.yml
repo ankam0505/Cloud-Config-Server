@@ -9,7 +9,7 @@ eureka:
     hostname: localhost
 # Endpoints
 microservice:
-    ONGOLE-BANKING-FINANCIAL-SERVICES:
+    ongole-banking:
       endpoints:
         endpoint:
           uri: http://ONGOLE-BANKING-FINANCIAL-SERVICES/v1/ongole/banking/financial/services/openOnlineAccount
@@ -17,7 +17,7 @@ microservice:
           uri: http://ONGOLE-BANKING-FINANCIAL-SERVICES/v1/ongole/banking/financial/services/findByCustomerId/{customerId}
           uri: http://ONGOLE-BANKING-FINANCIAL-SERVICES/v1/ongole/banking/financial/services/findByAccountNumber/{accountNumber}
           
-    HYDERABAD-BANKING-FINANCIAL-SERVICES:
+    hyderabad-banking:
        endpoints:
         endpoint:
           uri: http://HYDERABAD-BANKING-FINANCIAL-SERVICES/v1/hyderabad/banking/financial/saveCustomer
